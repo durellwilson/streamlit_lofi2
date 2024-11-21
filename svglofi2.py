@@ -1123,6 +1123,36 @@ def main():
         preferences = wireframes.create_user_preferences_screen()
         st.markdown(preferences.tostring(), unsafe_allow_html=True)
 
+    st.markdown("""
+        ### User Journey Flow Description
+
+        1. **Registration Flow**
+        - Welcome → Account Creation → Profile Setup
+        - Sign up and personalize experience
+
+        2. **Discovery Flow**
+        - Browse Athletes → Search Interface → Playlist Creation
+        - Find and collect favorite music
+
+        3. **Engagement Flow**
+        - Community Feed → Events Calendar
+        - Connect with athletes and attend events
+
+        4. **Premium Features**
+        - Premium Plans → Exclusive Content
+        - Access VIP features and special events
+
+        5. **Content Access**
+        - Library Management → Favorites
+        - Organize personal collection and playlists
+
+        This journey flow shows:
+        - Clear user progression from registration to premium features
+        - Focus on discovery and engagement
+        - Emphasis on community participation
+        - Path to exclusive content access
+        """)
+
 
 if __name__ == "__main__":
     main()
